@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+This module contains the definition of the pascal_tiangle
+function that generates the pascal triangle up to nth row
+"""
+
 
 def pascal_triangle(n):
     """ returns list of lists of ints
