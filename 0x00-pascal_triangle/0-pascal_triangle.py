@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 This module contains the definition of the pascal_tiangle
 function that generates the pascal triangle up to nth row
