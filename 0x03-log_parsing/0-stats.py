@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+''' Log Parsing
+'''
 import sys
 
 # Initialize metrics
@@ -7,6 +9,8 @@ status_codes_count = {200: 0, 301: 0, 400: 0, 401: 0, 403: 0, 404: 0, 405: 0, 50
 
 # Function to print statistics
 def print_stats():
+    ''' print_stats
+    '''
     print(f"File size: {total_file_size}")
     for code in sorted(status_codes_count):
         if status_codes_count[code] > 0:
