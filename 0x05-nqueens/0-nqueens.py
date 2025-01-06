@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 The N qeens pzzle is the challenge of placing N non-attacking qeens
 on an NxN chessboard. Write a program that solves the N queens problem.
