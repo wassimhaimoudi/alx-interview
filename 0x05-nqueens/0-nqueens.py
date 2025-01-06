@@ -33,7 +33,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 2:
-        print("Usage: nqeens N")
+        print("Usage: nqeens N", file=sys.stderr)
         exit(1)
 
     try:
