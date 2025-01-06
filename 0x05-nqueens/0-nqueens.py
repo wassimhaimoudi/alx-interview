@@ -49,5 +49,5 @@ if __name__ == "__main__":
                 clean.append([q, x])
             print(clean)
     except ValueError:
-        print("N must be an integer")
+        print("N must be a number")
         exit(1)
